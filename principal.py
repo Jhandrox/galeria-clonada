@@ -5,11 +5,19 @@ from pymongo import MongoClient
 from bson import ObjectId 
 from flask_mail import Mail, Message
 
+
 def comprueba_fondo():
     pass
 
 Documentos =["doc","docx"]
 
+def usuario():
+    pass
+
+def password():
+    pass
+    
+ 
 EXTNS = ["png", "jpg", "jpeg"]
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = "./static/fondos"
